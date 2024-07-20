@@ -1,0 +1,35 @@
+/* VerticalCarousel.css */
+.slider-container {
+  margin: 20px 10px;
+  margin-top: 0;
+}
+.slick-list {
+  height: 100dvh !important; /* Your desired height */
+}
+.slider-wrapper:nth-child(1){
+  background-color: #333;
+  height: 100dvh;
+  color: #ccc;
+}
+.slider-wrapper:nth-child(2){
+  background-color: orange;
+}
+.slick-dots{
+  width: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    top: 24%;
+    right: 0;
+    height: 160px;
+}
+
+.slider-container .slick-slide {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 50px 0;
+  text-align: center;
+  height: 100dvh; /* Adjust as needed */
+  border: 1px solid #ccc;
+}
